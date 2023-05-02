@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    overscroll-behavior: smooth;
+}
+header .container{
+    display: flex;
+    background-color: #182c61;
+    color:#ddd;
+    border: double 5px;
+    margin: 0 auto;
+    padding: 16px;
+    max-width: 1280px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+header, section h2{
+    font-family: 'Bungee', cursive;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ddd;
+    background-image: url("./tree-g830a98e77_1280.jpg");
+}
+
+nav li{
+    display: inline;
+    padding: 16px;
+    margin-left: 16px;
+}
+nav li a{
+    color:#ddd;
+    text-decoration: none;
+    font-size: 16px;
+}
+section{
+    padding: 12px 0;
+}
+.container{
+    display: flex;
+    background-color: #182c61;
+    color:#ddd;
+    margin: 0 auto;
+    padding: 16px;
+    max-width: 1280px;
+    align-items: center;
+    justify-content: space-between;
+}
+.container div{
+    padding-left: 16px;
+    text-align: justify;
+}
+
+section .container {
+    width: 80%;
+}
+section .container img{
+    width: 220%;
+}
+.brands-list li{
+    display: inline;
+    padding-left: 2px;
+    font-size: 10px;
+}
+.brands-list li img{
+    width: 20px;
+}
+.artigo article{
+    width: 100%;
+    text-align: justify;
+    padding-top: 12px;
+    font-size: 14px;
+}
+.artigo article a{
+    background-color: #2f7891;
+    padding: 8px;
+    border-bottom-style: groove;
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 2px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+.artigo article a:hover{
+    text-decoration: underline;
+    color: #DDD;
+}
+.artigo time{
+    font-size: 8px;
+}
+h3{
+    font-size: 16px;
+}
+.artigo article p{
+    padding-top: 4px;
+}
+form{
+    display: inline-table;
+    width:518px
+}
+input:focus, textarea:focus{
+    outline-color: #182c61;
+}
+textarea{
+    margin-top: 3px;
+    width: 486px;
+    height: 62px;
+    resize: none;
+}
+input, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    display: table;
+    width: 158px;
+    cursor: pointer;
+}
+.extra{
+    width: 40%;
+    font-size: 13px;
+}
+.extra h3{
+    font-size: 16px;
+}
+.extra h4{
+    font-size: 14px;
+}
+.extra .brands-list {
+    padding:10px;
+}
+.extra .brands-list a img{
+    padding: 0;
+    margin: 4px;
+}
+footer{
+    padding-left: 16px;
+    font-size: 12px;
+    color: #DDD;
+    background-color: #05133a;
+}
+footer a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #DDD;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
